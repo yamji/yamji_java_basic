@@ -14,12 +14,12 @@ public class ClassStart4 {
         student2.age = 16;
         student2.grade = 80;
 
-        Student[] students = new Student[2];
-        students[0] = student1;
-        students[1] = student2;
+        Student[] s = new Student[2];
+        s[0] = student1;
+        s[1] = student2;
 
-        System.out.println("이름:" + students[0].name + " 나이:" + students[0].age + " 성적:" + students[0].grade);
-        System.out.println("이름:" + students[1].name + " 나이:" + students[1].age + " 성적:" + students[1].grade);
+        System.out.println("이름:" + s[0].name + " 나이:" + s[0].age + " 성적:" + s[0].grade);
+        System.out.println("이름:" + s[1].name + " 나이:" + s[1].age + " 성적:" + s[1].grade);
 
     }
 }
